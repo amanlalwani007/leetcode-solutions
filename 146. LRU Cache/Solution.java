@@ -1,7 +1,7 @@
 import java.util.Hashtable;
 
 
-public class LRUCache {
+public class LRU_Cache {
 
 class DLinkedNode {
   int key;
@@ -54,7 +54,7 @@ private int count;
 private int capacity;
 private DLinkedNode head, tail;
 
-public LRUCache(int capacity) {
+public LRU_Cache(int capacity) {
   this.count = 0;
   this.capacity = capacity;
 
