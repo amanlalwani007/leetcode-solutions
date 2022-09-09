@@ -6,7 +6,7 @@ class Solution {
         int n =matrix.length;
         int m =matrix[0].length;
         int lo=0;
-        int hi = (n*m)-1;
+        int hi = (n*m)-1;  
         while(lo<=hi){
             int mid=(lo+(hi-lo)/2);
             if(matrix[mid/m][mid%m]==target){
@@ -25,3 +25,4 @@ class Solution {
         
     }
 }
+
